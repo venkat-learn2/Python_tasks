@@ -1,6 +1,6 @@
 student_data=[]
 teacher_data=[]
-
+print("top")
 def create_student():
 	rollno=input("Enter your Roll no:")
 	name=input("Enter your name:")
@@ -54,3 +54,6 @@ def check_status(status):
 		
 status=int(input("Enter 1 for student detail\nEnter 2 for Teacher detail\nEnter 3 to get student detail\nEnter 4 to get Teacher detail"))
 check_status(status)
+
+
+print("test dummy")
